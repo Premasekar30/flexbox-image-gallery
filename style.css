@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: solid blue 2px;
+    background-color: antiquewhite;
+    padding-bottom: 20px;
+    }
+.image__title{
+    border-bottom: solid black 2px;
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+.container button{
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 15px;
+   
+}
+.image__s1{
+    margin-top: 30px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+.image__s1 img{
+    width: 250px;
+    height: 250px;
+    flex-grow: 1;
+    flex-basis: 15%;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: solid black 2px;
+   
+}
